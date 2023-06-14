@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css.css">
+    <title>Resort Management</title>
+</head>
+
+<body style="background-color: mediumblue;">
+
+
+
+
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="logo.jpg" width="80" height="50"> <b> Resort Management</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Major.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="samp.html">Information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sevices.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">orderinfo</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <br>
+    <br>
+    <br>
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script language="javascript">
+         function validate()
+    {
+      var fname=document.reg.fn.value;
+      var fname=document.reg.f1n.value;
+      var lname=document.reg.ln.value;
+      var address=document.reg.address.value;
+        var tc_calendar=document.reg.tc_calendar.value;
+        var address=document.reg.Education.value;
+           var mm=document.reg.mm.value;
+            var dd=document.reg.dd.value;
+             var yy=document.reg.yy.value;
+             var landlineno=document.reg.rt.value;
+             var cellno=document.reg.cell no.value;
+             var email id=document.reg.email id.value;
+    
+    if(fname=='')
+      {
+        window.alert("Please Enter fname!");
+        document.reg.fn.focus();
+        return false;
+    
+     }
+    
+     
+    
+     if(lname=='')
+      {
+        window.alert("Please Enter lname!");
+        document.reg.ln.focus();
+        return false;
+    
+     }
+     if(address=='')
+      {
+        window.alert("Please Select Address!");
+        document.reg.address.focus();
+        return false;
+    
+     }
+     
+     
+     if(dd=='')
+      {
+        window.alert("Please Select Day!");
+        document.reg.tc_calendar.focus();
+        return false;
+    
+     }
+     if(mm=='')
+      {
+        window.alert("Please Select Month!");
+        document.reg.tc_calendar.focus();
+        return false;
+    
+     }
+     if(yy=='')
+      {
+        window.alert("Please Select Year!");
+        document.reg.tc_calendar.focus();
+        return false;
+    
+     }
+     if(landline no=='')
+      {
+        window.alert("Please enter your landline no!");
+        document.reg.landline no.focus();
+        return false;
+    
+     }
+     if(cell no=='')
+      {
+        window.alert("Please enter your cellphone  no!");
+        document.reg.cell no.focus();
+        return false;
+    
+     }
+     if(email id=='')
+      {
+        window.alert("Please enter your email address!");
+        document.reg.email id .focus();
+        return false;
+    
+     }
+    
+    
+    }
+    
+    
+    </script>
+    <title>Books</title>
+    </head>
+    
+    <body>
+    <center>
+    <form method="POST" action="" name="reg" onSubmit="return validate()">
+    <center><table border="5" bgcolor="red"> <h1 ><font color="RED"><b>ROOM BOOKING</b></font></h1><br><a href="index.php">WELCOME</a>
+    
+        <tr>
+            <td>FIRST NAME:</td>
+            <td><input type="text" name="fn" /></td>
+        </tr>
+      
+        <tr>
+            <td>LAST NAME:</td>
+            <td><input type="text" name="ln" /></td>
+        </tr>
+      <tr>
+            <td>ADDRESS:</td>
+            <td><input type="text" name="address" /></td>
+        </tr>
+    <tr>
+            <td>EMAIL ID</td>
+            <td><input type="text" name="email id" /></td>
+        </tr>
+        
+    
+    
+    
+    
+            
+            <td>CELL  NO</td>
+            <td><input type="text" name="cell NO" /></td>
+        </tr>
+        <td>Date(DD-MM-YYYY)</td>
+    <td><select name="dd">
+    <option> select day </option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="7">8</option>
+    <option value="7">9</option>
+    <option value="7">10</option>
+    <option value="7">11</option>
+    <option value="7">12</option>
+    <option value="7">13</option>
+    <option value="7">14</option>
+    <option value="7">15</option>
+    <option value="7">16</option>
+    <option value="7">17</option>
+    <option value="7">18</option>
+    <option value="7">19</option>
+    <option value="7">20</option>
+    <option value="7">21</option>
+    <option value="7">22</option>
+    <option value="7">23</option>
+    <option value="7">24</option>
+    <option value="7">25</option>
+    <option value="7">26</option>
+    <option value="7">27</option>
+    <option value="7">28</option>
+    <option value="7">29</option>
+    <option value="7">30</option>
+    </select>
+    <select name="mm">
+    <option> select mounth </option>
+    <option value="jan">JAN</option>
+    <option value="feb">FEB</option>
+    <option value="mar">MAR</option>
+    <option value="apr">APR</option>
+    <option value="may">MAY</option>
+    <option value="jun">JUN</option>
+    <option value="jul">JUL</option>
+    <option value="jul">AUG</option>
+    <option value="jul">SEP</option>
+    <option value="jul">OCT</option>
+    <option value="jul">NOV</option>
+    <option value="jul">DEC</option>
+    </select>
+    <select name="yy">
+    <option>select year</option>
+    <option value="2014">1985</option>
+    <option value="2015">1986</option>
+    <option value="2016">1987</option>
+    <option value="2017">1988</option>
+    <option value="2018">1989</option>
+    <option value="2019">1990</option>
+    <option value="2014">1991</option>
+    <option value="2014">1992</option>
+    <option value="2014">1993</option>
+    <option value="2014">2020</option>
+    </select>
+    </td>
+    </tr>
+    <td>ROOM TYPE(CLASS)</td>
+    <td><select name="rt">
+    <option> select class </option>
+    <option value="1">1st class</option>
+    <option value="2">2nd class</option>
+    <option value="2">3rd class</option>
+    <tr>
+     <td>PAYMENT TYPE</td>
+    <td><select name="rt">
+    <option> select payment type</option>
+    <option value="1">BY CASH </option>
+    <option value="2">BY CHECK</option>
+    <option value="2">ONLINE PAYMENT</option>
+    
+    
+    <tr>
+     
+    <td>&nbsp;</td>
+            <td><input type="submit" name="submit" value="BOOK NOW" /></td>
+        </tr>
+    
+    
+     </table>
+    </form>
+    </body>
+    </html>
+    <?php
+    require'db_conn.php';
+    $fn=$_POST['fn'];
+    $f1n=$_POST['f1n'];
+    $ln=$_POST['ln'];
+    $branch=$_POST['branch'];
+    $year=$_POST['year'];
+    $semester=$_POST['semester'];
+    $dd=$_POST['dd'];
+    $mm=$_POST['mm'];
+    $yy=$_POST['yy'];
+    $address=$_POST['address'];
+    $cap1=strtoupper($fn);
+    $cap2=strtoupper($f1n);
+    $cap3=strtoupper($ln);
+    $cap4=strtoupper($address);
+    
+    if(isset($_POST['submit']))
+     {
+    
+     $q1=mysql_query("insert into bhup values('$cap1','$cap2','$cap3','$cap4','$session','$rn','$branch','$year','$semester','$dd $mm $yy')");
+    if($q1)
+    {
+     echo"Record Successfully Add";
+    }
+    else
+    {
+    
+    echo"Not Add Your Record" ;
+    }
+     }
+    ?>
+
+
+
+
+
+
+
+    <footer id="footer">
+        <div class="footer1">
+            <div class="footer fixed-bottom">
+                <p class="float-right "><a href="#">Go top</a></p>
+                <p> &copy; 2020 company, inc. &middot; <a href="#">privacy</a> &middot; <a href="#">Terms</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
